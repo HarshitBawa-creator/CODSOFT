@@ -50,14 +50,3 @@ In this project, I built a machine learning model to predict whether a passenger
 
 ---
 
-# Demo Video
-
-*A short video explaining and demonstrating this project has been posted on [LinkedIn](#) and tagged with #codsoft.*
-
----
-
-# Connect
-
-This project is a part of my contribution to the **CODSOFT Data Science Internship Program**.
-
-Feel free to connect with me on [LinkedIn](#) or check out my other projects in this repository.
