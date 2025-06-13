@@ -1,29 +1,47 @@
-Iris Flower Classification using Random Forest
-This project implements a machine learning model to classify iris flowers into species (Setosa, Versicolor, Virginica) using the classic Iris dataset. The classification is done using a Random Forest algorithm.
-Project Overview
-    Dataset: Iris dataset (sepal length, sepal width, petal length, petal width)
-    Model: Random Forest Classifier
-    Goal: Predict the species of an iris flower based on its measurements
-    Tools & Libraries: Python, pandas, seaborn, matplotlib, scikit-learn
+# Iris Flower Classification
 
-How to Run
-    Clone the repository:
+This project is part of my **Data Science Internship at CODSOFT**.
 
-git clone https://github.com/HarshitBawa-creator/irisflowerclassification.git
-cd irisflowerclassification
+In this task, I built a machine learning model that classifies Iris flowers into three species — Setosa, Versicolor, or Virginica — based on sepal and petal measurements.
 
-Install the required packages:
-pip install pandas seaborn matplotlib scikit-learn
+---
 
-Run the script:
-python main.py
+# Dataset
 
-Code Summary
-    Load Dataset: The Iris dataset is loaded from a public URL.
-    Explore Data: Display first 5 rows and species distribution.
-    Visualize Data: Pairplot of features colored by species.
-    Prepare Data: Split into features (X) and labels (y).
-    Train-Test Split: Dataset split into training and testing sets.
-    Train Model: Random Forest Classifier is trained on training data.
-    Predict: Model makes predictions on the test set.
-    Evaluate: Accuracy and classification report are printed.
+- Source: [UCI Iris Dataset](https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv)
+- Total Rows: 150
+- Features:
+  - Sepal Length
+  - Sepal Width
+  - Petal Length
+  - Petal Width
+  - Species (Target)
+
+---
+
+# Tools and Libraries
+
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn (RandomForestClassifier)
+- Google Colab
+
+---
+
+# Steps Performed
+
+1. Loaded and visualized the dataset
+2. Explored the distribution of species
+3. Split the data into training and testing sets
+4. Trained a Random Forest Classifier
+5. Evaluated the model with accuracy and classification report
+
+---
+
+# Model Results
+
+- **Accuracy:** 100% on test set (due to small and clean dataset)
+- **Model:** RandomForestClassifier
+
